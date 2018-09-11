@@ -13,4 +13,8 @@ Some sketches an ideas on M5Fire applications
   
 **3. M5Fire_clicker demonstration.**
 
-  Simplest way of demonstrating unexpected sounds from M5Stack Fire during Analog.Read
+  Simplest way of demonstrating unexpected sounds from M5Stack Fire during analogRead
+  
+  Sometimes same issue is reproducable using Serial.print and Serial.println.
+  
+  Initing device via M5.begin() reduces sound volume a bit but not eliminates it. (Connecting more external devices to 5V line also reduces sound)
